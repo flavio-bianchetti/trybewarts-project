@@ -19,7 +19,7 @@
 }
 
 .trybewarts-login {
-  display: inline-block;
+  display: flex;
 }
 
 h1 {
