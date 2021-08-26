@@ -77,3 +77,9 @@ section {
   bottom: 0;
   text-align: center;
 }
+
+#num-caracteres {
+  width: 100%;
+  text-align: right;
+  display: block;
+}
