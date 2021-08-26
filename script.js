@@ -5,6 +5,25 @@ const submitBtn = document.getElementById('submit-btn');
 const agreement = document.getElementById('agreement');
 const myTextArea = document.getElementById('textarea');
 const numCaracteres = document.getElementById('num-caracteres');
+// const nome = document.getElementById('input-name');
+// const sobrenome = document.getElementById('input-lastname');
+// const email = document.getElementById('input-email');
+// const casa = document.getElementById('house');
+// const familia = document.querySelectorAll('[name=family]');
+// const materias = document.getElementsByClassName('subject');
+// const avaliacao = document.querySelectorAll('[name=rate]'); // paramos aqui.
+// const observacoes = document.getElementById('textarea');
+
+// let info = {
+//   nome: '',
+//   sobrenome: '',
+//   email: '',
+//   casa: '',
+//   familia: '',
+//   materias: '',
+//   avaliacao: '',
+//   observacoes: '',
+// };
 
 function testeBtn() {
   if (input1.value === 'tryber@teste.com' && input2.value === '123456') {
@@ -39,8 +58,17 @@ function memoMyTextArea() {
   myTextArea.addEventListener('keydown', countMyTextArea);
 }
 
+// function submitForm() {
+
+// }
+
+// function btnSubmit() {
+//   submitBtn.addEventListener('click', submitForm);
+// }
+
 window.onload = function pageOnload() {
   btnLogin();
   inputCheckBox();
   memoMyTextArea();
+  // btnSubmit();
 };
