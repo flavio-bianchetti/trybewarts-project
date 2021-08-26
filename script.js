@@ -17,17 +17,17 @@ window.onload = function pageOnload() {
   btnLogin();
 };
 
-const submitBtn = document.getElementById('submit-btn');
-const agreement = document.getElementById('agreement');
+// const submitBtn = document.getElementById('submit-btn');
+// const agreement = document.getElementById('agreement');
 
-function checkBoxStatus() {
-  if (agreement.checked) {
-    submitBtn.enabled = true;
-  } else {
-    submitBtn.enabled = false;
-  }
-}
+// function checkBoxStatus() {
+//   if (agreement.checked) {
+//     submitBtn.enabled = true;
+//   } else {
+//     submitBtn.enabled = false;
+//   }
+// }
 
-function inputCheckBox() {
-  agreement.addEventListener('click', checkBoxStatus);
-}
+// function inputCheckBox() {
+// agreement.addEventListener('click', checkBoxStatus);
+// }
