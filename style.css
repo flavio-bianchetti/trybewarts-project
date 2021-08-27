@@ -78,7 +78,7 @@ section {
   text-align: center;
 }
 
-#num-caracteres {
+#counter {
   width: 100%;
   text-align: right;
   display: block;
