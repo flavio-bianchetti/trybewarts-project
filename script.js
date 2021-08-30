@@ -52,8 +52,7 @@ function inputCheckBox() {
 }
 
 function countMyTextArea(event) {
-  numCaracteres.innerHTML = event.target.value.length;
-  numCaracteres.innerHTML += ' / 500';
+  numCaracteres.innerText = (500 - event.target.value.length);
 }
 
 function memoMyTextArea() {
@@ -103,7 +102,7 @@ function createElement(parent, tag, text) {
 function listResults1() {
   createElement(myform, auxiliary[1], 'Nome: ');
   createElement(myform, auxiliary[1], info.nome);
-  createElement(myform, auxiliary[1], '');
+  createElement(myform, auxiliary[1], ' ');
   createElement(myform, auxiliary[1], info.sobrenome);
   createElement(myform, auxiliary[2], '');
   createElement(myform, auxiliary[1], 'Email: ');
