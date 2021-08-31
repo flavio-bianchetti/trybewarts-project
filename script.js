@@ -51,12 +51,12 @@ function inputCheckBox() {
   agreement.addEventListener('click', checkBoxStatus);
 }
 
-function countMyTextArea(event) {
-  numCaracteres.innerText = (500 - event.target.value.length);
+function countMyTextArea() {
+  numCaracteres.innerHTML = (500 - myTextArea.value.length);
 }
 
 function memoMyTextArea() {
-  myTextArea.addEventListener('keydown', countMyTextArea);
+  myTextArea.addEventListener('keyup', countMyTextArea);
 }
 
 function getIndexFamily() {
