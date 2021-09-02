@@ -78,7 +78,8 @@ aside img {
 
 #evaluation-form {
   display: flex;
-  width: 675px;
+  max-width: 675px;
+  min-width: 675px;
   flex-flow: column wrap;
   padding: 5px;
   border-radius: 10px;
@@ -105,7 +106,7 @@ aside img {
   justify-content: space-evenly;
 }
 
-#evaluation-form > div:nth-of-type( 1 ) div {
+#evaluation-form > div:nth-of-type( 1 ) {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
@@ -113,14 +114,13 @@ aside img {
   max-width: 100%;
 }
 
-#evaluation-form > div:nth-of-type( 1 ) div input {
+#evaluation-form > div:nth-of-type( 1 ) input {
   border: none;
   padding: 5px;
   margin: 5px;
   border-radius: 5px;
   flex-grow: 1;
   max-width: 100%;
-  display: inline-block;
 }
 
 #evaluation-form > div:nth-of-type( 2 ) label {
@@ -135,7 +135,6 @@ aside img {
   border-radius: 5px;
   flex-grow: 1;
   max-width: 100%;
-  display: inline-block;
 }
 
 #evaluation-form section {
@@ -215,6 +214,28 @@ aside img {
 
   .header {
     flex-flow: column wrap;
+  }
+
+  #evaluation-form {
+    max-width: auto;
+    min-width: auto;
+  }
+
+}
+
+@media screen and ( min-width : 601px ) and ( max-width : 900px ) {
+
+  body {
+    background-color: darkcyan;
+  }
+
+  img {
+    display: none;
+  }
+
+  #evaluation-form {
+    max-width: auto;
+    min-width: auto;
   }
 
 }
