@@ -42,8 +42,10 @@ function btnLogin() {
 function checkBoxStatus() {
   if (agreement.checked) {
     submitBtn.disabled = false;
+    submitBtn.style.backgroundColor = 'forestgreen';
   } else {
     submitBtn.disabled = true;
+    submitBtn.style.backgroundColor = 'gray';
   }
 }
 
