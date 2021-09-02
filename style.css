@@ -6,7 +6,7 @@
 
 body {
   background-color: rgb(230, 230, 230);
-  background-image: url(./images/background.jpg);
+  background-image: url('images/background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: auto inherit;
