@@ -2,13 +2,12 @@
 
 This repository contains the "_Trybewarts_" project, the first project developed in a group at Trybe, made in HTML and CSS. It consists of a page for registering at the "_TrybeWarts Wizarding School_". The objective proposed in this project is to create HTML forms and use CSS Flexbox to create flexible layouts with rules for mobile devices.
 
+![flavio-bianchetti-trybewarts-project](https://docs.google.com/uc?id=197aAs77lnsKLfv9NaZI9G04BdEIVXbYc)
+
 ### Authors:
 
 - _[Alexandre Klimak](https://github.com/aklimak)_
 - _[Flávio Bianchetti](https://www.linkedin.com/in/flaviobianchetti/)_
-
-
-![flavio-bianchetti-trybewarts-project](https://docs.google.com/uc?id=197aAs77lnsKLfv9NaZI9G04BdEIVXbYc)
 
 ---
 
@@ -62,12 +61,12 @@ by _[Flávio Bianchetti - 2021](https://github.com/flavio-bianchetti)_.
 
 Este repositório contém o projeto "_Trybewarts_", primeiro projeto desenvolvido em grupo na Trybe, feito em HTML e CSS. Ele consiste em uma página para cadastro na "_TrybeWarts Wizarding School_". O objetivo proposto neste projeto é criar formulários em HTML e utilizar CSS Flexbox para criar layouts flexíveis com regras para dispositivos móveis.
 
+_Acima, na versão em inglês, é exibida a imagem da página do projeto._
+
 ### Autores:
 
 - _[Alexandre Klimak](https://github.com/aklimak)_
 - _[Flávio Bianchetti](https://www.linkedin.com/in/flaviobianchetti/)_
-
-_Acima, na versão em inglês, é exibida a imagem da página do projeto._
 
 ---
 ### Foram utilizados na construção desta página:
